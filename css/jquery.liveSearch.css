@@ -1,0 +1,34 @@
+#results {
+    max-height: 400px;
+    z-index:999;
+    position:absolute;
+    
+    background:#eee;
+    padding:10px;
+    border:1px solid #ccc;
+    display: none;
+    overflow-y: auto;
+}
+
+#results li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+#results li:hover {
+    background: #cccccc;
+    font-weight: bold;
+}
+
+#results li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+#results li span {
+    width: 100%;
+    display: block;
+    font-size: 12px !important;
+    font-weight: bold;
+}
