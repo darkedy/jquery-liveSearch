@@ -29,7 +29,7 @@ $('#my-input').focus(function(){
 });
 
 function liveSearch(src, len){
-    if(src == "" || len <= 3){
+    if(src == "" || len < 3){
     	$('#results').fadeOut();
     } else {
         $.ajax({
